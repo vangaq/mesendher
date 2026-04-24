@@ -1,6 +1,0 @@
-run = "python start_server.py"
-modules = ["python-3.11"]
-
-[[ports]]
-localPort = 8000
-externalPort = 80
