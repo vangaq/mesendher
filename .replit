@@ -1,6 +1,9 @@
 run = "python start_server.py"
 modules = ["python-3.11"]
 
+[deployment]
+run = ["python", "start_server.py"]
+
 [[ports]]
 localPort = 8000
 externalPort = 80
